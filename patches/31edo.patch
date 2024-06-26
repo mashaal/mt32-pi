@@ -1,0 +1,13 @@
+diff --git a/src/synth/fluid_gen.c b/src/synth/fluid_gen.c
+index 2ce2b0f7..ae30d440 100644
+--- a/src/synth/fluid_gen.c
++++ b/src/synth/fluid_gen.c
+@@ -86,7 +86,7 @@ static const fluid_gen_info_t fluid_gen_info[] =
+     { _GEN(SAMPLEID),               0,     0,       0.0f,      0.0f,       0.0f },
+     { _GEN(SAMPLEMODE),             0,     0,       0.0f,      0.0f,       0.0f },
+     { _GEN(RESERVED3),              0,     0,       0.0f,      0.0f,       0.0f },
+-    { _GEN(SCALETUNE),              0,     1,       0.0f,   1200.0f,     100.0f },
++    { _GEN(SCALETUNE),              0,     1,       0.0f,   1200.0f,   38.7097f },
+     { _GEN(EXCLUSIVECLASS),         0,     0,       0.0f,      0.0f,       0.0f },
+     { _GEN(OVERRIDEROOTKEY),        1,     0,       0.0f,    127.0f,      -1.0f },
+     { _GEN(PITCH),                  1,     0,       0.0f,    127.0f,       0.0f },
